@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="section-1-bg">
+        <aside><!-- Funciona como se fosse 2 divs-->
+            <div class="icon-menu" onclick="abrirmenu()">
+                <img src="img/menu.png" alt="menu-aberto"> <!-- corrigido aqui -->
+            </div> <!--Menu lateral esquerdo-->
+
+            <div id="barra-menu">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+
+                <div class="C-icon">
+                    <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span> <span class="icon"></span>
+                    <span class="icon"><ion-icon name="logo-whatsapp"></ion-icon></span>
+
+                </div> <!--icones -->
+            </div> <!-- A barra do menu-->
+        </aside>
+
+        <div class="main-title">
+            <h1>Prazer, sou Allan</h1>
+            <h2>Sou desenvolvedor web</h2>
+            <button class="btn"><a href="https://wa.me/5511984080983">Saber mais</a></button>
+          </div>
+
+
+    </div><!-- elementos da primeira pagina-->
+
+    <section class="C-sobre">
+        <div class="image">
+            <img src="img/programador.jpg" alt="Sobre">
+        </div><!--Imagem sobre mim-->
+        <section id="sobre-mim">
+            <div class="Sobre-mim">
+                <h1>Sobre mim</h1>
+                <h4>Desenvolvedor & Design</h4>
+                <p> Olá, meu nome é Allan Gonsalves.
+                    Sou formado em Análise e Desenvolvimento de Sistemas pela UNISA e atualmente estou me especializando
+                    como desenvolvedor web Front-end. Atuo na criação de páginas e publicações,
+                    buscando sempre o aprendizado contínuo e o aprimoramento de minhas habilidades em
+                    tecnologias como JavaScript, CSS, HTML e Python. Com cerca de 1 ano de trajetória na área de
+                    desenvolvimento,
+                    busco oportunidades no mercado como desenvolvedor e tenho como objetivo futuro me tornar um
+                    desenvolvedor Full Stack.
+                </p>
+                <button class="btn">Saber mais</button>
+        </section>
+        </div>
+    </section>
+
+
+    <!------------------ Projetos----------------->
+
+
+    <section class="C-projetos" data-aos="fade-up">
+        <section id="projetos">
+            <h1>Meus projetos</h1>
+            <p>Alguns dos meus projetos </p>
+            <p>Disponivel para novos projetos</p>
+            <div class="img-projetos" data-aos="fade-up">
+                <h2>Projeto 1</h2>
+                <img src="/img/projeto1.png" alt="projeto">
+                <img src="/img/projeto1.1.png" alt="projeto">
+                <img src="/img/projeto1.2.png" alt="projeto">
+                <h2>Projeto 2</h2>
+                <img src="/img/projeto2.png" alt="projeto">
+                <h2>Projeto 3</h2>
+                <img src="/img/projeto3.png" alt="projeto">
+                <h2>Projeto 4</h2>
+                <img src="/img/projeto4.png" alt="projeto">
+                <h2>Projeto 5</h2>
+                <img src="img/projeto5.png" alt="projeto">
+            </div>
+        </section>
+    </section>
+    <!--C-projetos-->
+
+    <section class="C-rodapé">
+        <section id="contato">
+            <h1>Contatos</h1>
+            <ul class="C-social">
+                <li><a href="https://api.whatsapp.com/send?phone=5511984080983"><i class="fa fa-whatsapp"></i>WhatsApp</a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/allan-gonsalves/"><i class="fa fa-linkedin"></i>LinkedIn</a>
+                </li>
+                <li><a href="https://github.com/Allan1503"><i class="fa fa-github"></i>Github</a></li>
+            </ul>
+        </section>
+    </section><!--C-rodapé-->
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
