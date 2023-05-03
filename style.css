@@ -496,7 +496,7 @@ aside{
 
 .C-rodapé{
   width: 100%;
-  background-color: #3f3030;
+  background-color: hsl(191, 69%, 6%);
   padding: 50px;
 }
 
@@ -511,7 +511,7 @@ aside{
 .C-rodapé ul{
   font-size: 25px;
   text-align: center;
-  color: #ffffff;
+  color: blue;
   font-family: "Inria Sans";
   font-weight: lighter;
 }
