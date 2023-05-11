@@ -164,12 +164,8 @@ aside{
     background: rgb(4, 96, 99);
     width: 100vw;
     height: 60px;
-    position: fixed;
     top: 0;
     left: 0;
-    transform-origin: top left;
-    transform: rotate(-90deg) translateY(-100%);
-    transition: transform 0.3s;
 }
 
 #barra-menu ul {
@@ -216,9 +212,9 @@ aside{
 /* --------------- cor da letra menu / letra---------*/
 
 #barra-menu ul li a{
-    color: rgb(255, 255, 255);
+    color: rgb(2, 1, 1);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
 
 }
@@ -226,10 +222,10 @@ aside{
 /*-------------------cor do circulo em volta da letra menu-------*/
 
 #barra-menu ul li a:hover{
-    border: solid 1px blue;
+    border: solid 1px rgb(131, 238, 131);
     padding: 8px;
     border-radius: 15px;
-    background-color: blue;
+    background-color: rgb(131, 238, 131);
 }
 
 /* ---------------- icones menu ------------*/
@@ -253,7 +249,7 @@ aside{
 .C-icon span:hover{
     transition: 0.2s;
     transform: 0.5s;
-    color: blue;
+    color: rgb(131, 238, 131);
 }
 
 /*------------------------ Titulo principal ---------------*/
@@ -325,7 +321,7 @@ aside{
   border: solid 1px white; 
   transition: 0,7s;
   background: transparent;
-  color: white;
+  color: rgb(173, 60, 60);
 }
 
 /* -------------- deixar responsivo  -------------------------*/
@@ -410,7 +406,7 @@ aside{
 /* -------------- Botao sobre mim --------------------*/
 
 .Sobre-mim button {
-  background-color: white;
+  background-color: rgb(131, 238, 131);
   margin: 30px auto 0;
   display: block;
   padding: 10px 50px;
